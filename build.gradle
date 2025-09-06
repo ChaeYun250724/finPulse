@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    group = 'com.fhk.finpulse'
+    version = '1.0.0'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.30'
+        annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+    }
+
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
+
+//allprojects → 모든 모듈 공통 설정, 리포지토리, 그룹/버전 등
+//subprojects → 각 모듈 공통 플러그인과 의존성

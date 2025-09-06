@@ -3,6 +3,14 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/common" />
         <option name="modules">
           <set>
@@ -11,10 +19,42 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/dashboard" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/dashboard" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/event" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/event" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/payment" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/payment" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/refund" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/refund" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/security" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/security" />
           </set>
         </option>
       </GradleProjectSettings>

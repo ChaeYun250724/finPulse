@@ -1,0 +1,8 @@
+rootProject.name = 'finpulse'
+
+include 'common'
+include 'payment'
+include 'refund'
+include 'event'
+include 'security'
+include 'dashboard'
